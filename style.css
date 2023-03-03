@@ -47,6 +47,26 @@ body {
   justify-content: center;
 }
 
+.rating-background {
+  color: var(--light-grey);
+}
+
+.ratings {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.rating {
+  display: inline-block;
+}
+
+.rating-background:hover {
+  transition: all 0.3s ease-in;
+  background-color: var(--orange);
+  color: white;
+}
+
 h1 {
   color: white;
   margin-bottom: 10px;
@@ -59,17 +79,6 @@ p {
   margin-bottom: 20px;
 }
 
-.ratings {
-  display: flex;
-  gap: 25px;
-  margin-bottom: 20px;
-}
-
-.rating {
-  display: inline-block;
-  color: var(--light-grey);
-}
-
 .btn-submit {
   border: none;
   background-color: var(--orange);
@@ -79,4 +88,10 @@ p {
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 25px;
+}
+
+.btn-submit:hover {
+  transition: all ease-out 0.3s;
+  background-color: white;
+  color: var(--orange);
 }
