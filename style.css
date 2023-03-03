@@ -13,7 +13,70 @@
 }
 
 body {
-  background-color: var(--very-dark-blue);
+  /* background-color: var(--very-dark-blue); */
+  background-color: black;
   font-family: "Hanken Grotesk", sans-serif;
   font-family: "Outfit", sans-serif;
+  height: 100vh;
+}
+
+.rating-component {
+  /* background-color: var(--very-dark-blue); */
+  background: linear-gradient(to top, var(--very-dark-blue), var(--dark-blue));
+  padding: 30px;
+  width: 320px;
+  margin-inline: auto;
+  border-radius: 25px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icon-background {
+  margin-bottom: 20px;
+}
+
+.icon-background,
+.rating-background {
+  background-color: var(--dark-blue);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+p {
+  color: var(--light-grey);
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.ratings {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.rating {
+  display: inline-block;
+  color: var(--light-grey);
+}
+
+.btn-submit {
+  border: none;
+  background-color: var(--orange);
+  width: 100%;
+  color: #fff;
+  padding: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 25px;
 }
