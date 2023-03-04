@@ -34,11 +34,9 @@ submitBtn.addEventListener("click", () => {
 
     ratingComponent.style.display = "none";
 
-    const newParagraph = document.createElement("p");
+    const paragraph = document.querySelector(".user-select");
 
-    newParagraph.classList.add("user-select");
-    newParagraph.textContent = `You selected ${rating} out of 5`;
-    illustration.insertAdjacentElement("afterend", newParagraph);
+    paragraph.textContent = `You selected ${rating} out of 5`;
 
     thankYouComponent.style.display = "block";
     thankYouComponent.style.transition = "opacity 0.5s ease-in";

@@ -127,13 +127,24 @@ h1 {
   margin-bottom: 20px;
 }
 
+.user-select-background {
+  /* padding: 5px 20px; */
+  border-radius: 20px;
+  background-color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  padding: 0px 20px;
+  height: 25px;
+
+  margin: 0px auto 30px auto;
+}
+
 .user-select {
   color: var(--orange) !important;
-  background-color: var(--dark-blue);
-  display: inline-block;
-  padding: 5px 20px;
-  border-radius: 20px;
-  margin-bottom: 30px;
+  padding: 0 !important;
+  margin: 0;
 }
 
 .thank-you-component h2 {
@@ -155,7 +166,7 @@ h1 {
   }
 
   .ratings {
-    gap: 10px;
+    gap: 15px;
     margin-bottom: 25px;
   }
 
@@ -165,13 +176,14 @@ h1 {
     margin-bottom: 25px;
   }
 
+  .user-select-background {
+    margin-bottom: 20px;
+  }
+
   .user-select {
     color: var(--orange) !important;
-    background-color: var(--dark-blue);
-    display: inline-block;
-    padding: 5px 20px;
-    border-radius: 20px;
-    margin-bottom: 20px;
+
+    /* display: inline-block; */
   }
 
   .thank-you-component p {
