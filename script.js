@@ -44,6 +44,6 @@ submitBtn.addEventListener("click", () => {
       thankYouComponent.style.opacity = "1";
     }, 1);
   } else {
-    alert("You didnt select a rating");
+    alert("Please select a rating");
   }
 });
