@@ -35,10 +35,12 @@ body {
 /* rating component */
 
 .rating-component {
+  opacity: 1;
 }
 
 .thank-you-component {
   display: none;
+  opacity: 0;
 }
 
 .icon-background {
